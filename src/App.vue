@@ -25,7 +25,7 @@
 
   const getWeatherData = async (city) => {
   
-    const apiWeatherURL = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&lang=pt`
+    const apiWeatherURL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&lang=pt`
 
     try {
 
